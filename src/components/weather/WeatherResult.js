@@ -13,6 +13,10 @@ const WeatherResult = () => {
     setSelectedCity(newCity);
   };
 
+  const onInputChange = (value) => {
+    setInput(value);
+  };
+
   return (
     <div className='container'>
      <WeatherInput onCityChange={handleCityChange}  /> 
