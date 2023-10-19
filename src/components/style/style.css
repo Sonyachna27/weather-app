@@ -1,0 +1,20 @@
+.container{
+    max-width: 1200px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+body{
+background: url(../../images/hills-615429_1280.jpg) center center / cover no-repeat;
+height: 100vh;
+color: rgb(255, 254, 254);
+text-shadow: 0 0 15px #fdfaae;
+margin: 150px auto;
+}
+p,
+label{
+    font-size: 30px;
+}
+img{
+    width: 120px;
+    height: 120px; 
+}
