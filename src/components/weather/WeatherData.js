@@ -41,7 +41,7 @@ const WeatherData = ( { latitude, longitude }) => {
      <p>Weather: {cityClouds}</p>
      </Col>
       <Col className='mb-3' sm={4} >
-      <img src={`http://openweathermap.org/img/w/${cityIcon}.png`} alt={cityClouds} />
+      <img src={`https://openweathermap.org/img/w/${cityIcon}.png`} alt={cityClouds} />
       </Col>
       </Row>
     </Container>
