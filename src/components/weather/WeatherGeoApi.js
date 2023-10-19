@@ -7,7 +7,7 @@ const useWeatherGeoApi = (selectedCity) => {
 
   useEffect(() => {
     async function getcoordinates() {
-      let searchApi = `http://api.openweathermap.org/geo/1.0/direct?q=${selectedCity}&limit=1&appid=30a75844b229bdaef0cc8c8b22b73d58`;
+      let searchApi = `https://api.openweathermap.org/geo/1.0/direct?q=${selectedCity}&limit=1&appid=30a75844b229bdaef0cc8c8b22b73d58`;
       try {
         const responseGeo = await fetch(searchApi, {
           method: 'GET',
